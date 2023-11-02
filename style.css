@@ -1,0 +1,205 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(227, 240, 236);
+  }
+  
+  li {
+    /* margin-top: 10px; */
+    float: none;
+  }
+  
+  li a {
+    font-size: 16px;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(33, 78, 96);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: white;
+    
+    border-bottom: 6px solid whitesmoke;
+  }
+.navigation {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+.navigation li {
+    margin-right: 70px;
+
+  }
+  #logo{
+    width: 15%;
+    margin-right: 400px;
+  }
+  .home{
+    color: rgb(33, 78, 96);
+    font-size: 30px;
+    display: flex;
+    background-color: rgb(227, 240, 236);
+  }
+  .heading{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
+  }
+  .theme img{
+    margin-top: 150px;
+    width: 45%;
+  }
+  .theme{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-bottom: 300px;
+  }
+  .theme2 img{
+    margin-top: 150px;
+    width: 52%;
+  }
+  .theme2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-bottom: 300px;
+  }
+
+
+
+  .events{
+    text-align: center;
+    background-color: rgb(227, 240, 236);
+  }
+  .kristong{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+  .all{
+    background-color: rgb(227, 240, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .about{
+    font-size: 15px;
+    color: rgb(33, 78, 96);
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(227, 240, 236);
+  }
+  .grid-content{
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr; 
+     background-color: rgb(227, 240, 236);
+  }
+  .sheba{
+    color: black;
+    text-align: center;
+  }
+  .items{
+    text-align: center;
+    background-color: rgb(227, 240, 236);
+    color: rgb(33, 78, 96);
+  }
+  .items img{
+    width: 200px;
+  }
+  .taka img{
+    width: 20%;
+  }
+  .service{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(227, 240, 236);
+}
+.guide{
+  text-align: center;
+  background-color: rgb(227, 240, 236);
+  color: rgb(33, 78, 96);
+}
+.guide img{
+  width: 200px;
+}
+.taka{
+  text-align: center;
+  background-color: rgb(227, 240, 236);
+  color: rgb(33, 78, 96);
+}
+.taka img{
+  width: 200px;
+}
+.safety{
+  text-align: center;
+  background-color: rgb(227, 240, 236);
+  color: rgb(33, 78, 96);
+}
+.safety img{
+  width: 200px;
+}
+
+
+.contact{
+  color: rgb(33, 78, 96);
+  text-align: center;
+  margin: 5%;
+  background-color: aquamarine;
+}
+.individualContact{
+  display: flex;
+  justify-content:space-around;
+}
+.phone{
+  color: rgb(33, 78, 96);
+  font-size: 25px;
+  display: flex;
+}
+.email{
+  color: rgb(33, 78, 96);
+  font-size: 25px;
+  display: flex;
+  
+}
+.address{
+  color: rgb(33, 78, 96);
+  font-size: 25px;
+  display: flex;
+}
+.message{
+  display: flex;
+  justify-content:space-around;
+}
+.message img{
+  width: 30%; 
+}
+#subjectBox{
+  margin-left: 30px;
+}
+#phoneBox{
+  margin-left: 41px;
+}
+#emailBox{
+  margin-left: 38px;
+}
+#messageBox{
+  margin-left: 19px;
+}
+.button{
+  color: red;
+  text-align: center;
+  align-items: center;
+}
+.blue {
+  color: blue;
+  background-color: lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
+}
